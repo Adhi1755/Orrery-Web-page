@@ -3,6 +3,10 @@ body{
     font-family: poppins,Arial, Helvetica, sans-serif;
     background-color:black;
     color: #D8D9DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .navigation{
     position: sticky;
@@ -91,8 +95,6 @@ body{
     height: 500px;
     width: 1500px;
     margin-top: 30px;
-    margin-left: 200px;
-    margin-right: 100px;
     margin-bottom: 0;
     border: 1px solid #272829;
     display: flex;
@@ -129,8 +131,6 @@ body{
     height: 500px;
     width: 1500px;
     margin-top: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
     border: 0.1px solid #FFF6E0;
     display: flex;
     align-items: center;

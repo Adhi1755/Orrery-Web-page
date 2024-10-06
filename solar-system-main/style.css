@@ -132,7 +132,7 @@ img {
     right: 5em;
     width: 5em;
     height: 5em; 
-    animation: orbit 15s linear infinite; 
+    animation: orbit 10s linear infinite; 
     border: none;
 }
 
@@ -189,7 +189,7 @@ img {
 .uranus:hover,
 .neptune:hover,
 .pluto:hover {
-   border: solid .5px rgb(141, 141, 141);
+   border: solid .5px rgb(255, 255, 255);
 }
 .mercury:hover::before,
 .venus:hover::before,
@@ -347,38 +347,17 @@ img {
     margin: 5px;
 }
 
-/* #slider {
-    width: 80px;
-    height: 10px;
-    border-radius: 5px;
-    background: #d3d3d3;
-    outline:#FFFFFF;
-    opacity: 0.7;
-    transition: opacity .2s;
-}
-
-#slider:hover {
-    opacity: 1;
-}
-
-#slider::-webkit-slider-thumb {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: rgb(92, 98, 130);
-    cursor: pointer;
-} */
 
 #slider {
     width: 80px;
     height: 10px;
     border-radius: 5px;
-    background: #ffffff; /* White background */
-    border: 2px solid #ccc; /* Light gray border for visibility */
-    outline: none; /* Remove outline */
+    background: #ffffff; 
+    border: 2px solid #ccc; 
+    outline: none; 
     opacity: 0.7;
     transition: opacity 0.2s;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 #slider:hover {
@@ -389,31 +368,31 @@ img {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #ffffff; /* White thumb */
+    background: #ffffff; 
     cursor: pointer;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Shadow for the thumb */
-    border: 2px solid #ccc; /* Light gray border for thumb */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); 
+    border: 2px solid #ccc; 
 }
 
-/* Additional styles for Firefox and other browsers */
+
 #slider::-moz-range-thumb {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #ffffff; /* White thumb */
+    background: #ffffff; 
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-    border: 2px solid #ccc; /* Light gray border for thumb */
+    border: 2px solid #ccc; 
 }
 
 #slider::-ms-thumb {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #ffffff; /* White thumb */
+    background: #ffffff; 
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-    border: 2px solid #ccc; /* Light gray border for thumb */
+    border: 2px solid #ccc; 
 }
 
 
@@ -444,7 +423,7 @@ img {
 
 .planet-tooltip table {
     font-size: 12px;
-    width: 400px; 
+    width: 300px; 
     border: none;
     border-collapse: collapse;
 }
